@@ -1,0 +1,50 @@
+.jumbotron{
+    background-color: #1C2833;
+    color: azure;
+    font-family: Arial;
+}
+
+body{
+    background-color: #1C2833
+}
+
+input[type=number]{
+    width: 30%;
+    border-radius: 4px;
+    height: 35px;
+    
+}
+
+input[type=submit]{
+    background-color: ;
+    font-family: Arial;
+    color: black;
+}
+
+.btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.container{
+    margin-bottom: 10px;
+    width: 50%;
+    padding: 15px;
+    font-family: Helvetica, sans-serif, bold;
+    color: white;
+    font-size: 20px;
+    border-radius: 4px;
+    
+}
+
+.kilo{
+    background-color: #1E90FF;
+}
+
+.ounces{
+    background-color: #00FA9A;
+}
+
+.grams{
+    background-color: #9370DB;
+}

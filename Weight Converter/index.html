@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weight Converter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="jumbotron text-center animated bounceInDown">
+        <h1>Weight Converter</h1>
+        <form id='form' class="form-inline">
+           <div class="form-group">
+            <input type="number"  class="form-control" placeholder="Please Input a Weight ..." id='item'>
+            <input type="submit" class="btn" value="SUBMIT">
+            </div>
+        </form>
+    </div>
+    <div class="container kilo animated bounceInLeft">
+       <div class="row">
+           <div class="col-md-8">
+               <p>Kilo: <span id='kil'></span></p>
+           </div>
+       </div>
+        
+    </div>
+    
+    <div class="container ounces animated bounceInRight">
+        <div class="row">
+            <div class="col-md-8">
+                <p>Ounces: <span id= 'oun'></span></p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container grams animated bounceInLeft">
+        <div class="row">
+            <div class="col-md-8">
+                <p>Grams: <span id=gra></span></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="dom.js"></script>
+    
+</body>
+</html>
